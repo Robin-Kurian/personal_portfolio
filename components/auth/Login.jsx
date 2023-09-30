@@ -26,7 +26,7 @@ const Login = () => {
                     </div>
                     <div className='mt-3 text-sm'>
                         <label htmlFor="password"> Password </label>
-                        <input type="password" id='password' {...register('password', { required: 'This is required' })} className={`px-5 py-3 w-full bg-gray-100 rounded-md ${errors?.password ? 'border-2 border-red-400' : undefined}`} />
+                        <input type="password" id='password' placeholder='enter password' {...register('password', { required: 'This is required' })} className={`px-5 py-3 w-full bg-gray-100 rounded-md ${errors?.password ? 'border-2 border-red-400' : undefined}`} />
                         {errors && errors.password && (
                             <label htmlFor="email" className='text-red-600 mt-1'> {errors.password.message} </label>
                         )}
