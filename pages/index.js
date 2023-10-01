@@ -1,9 +1,5 @@
 import React from 'react'
-import Highlight from '../components/common/Highlight'
-import Table from '../components/common/Table'
-import ContentWrapper from '../components/layouts/ContentWrapper'
-import DefaultLayout from '../components/layouts/DefaultLayout'
-import Contents from '../contents/content'
+import DefaultLayout from '@/components/layouts/DefaultLayout'
 
 const home = () => {
   return (

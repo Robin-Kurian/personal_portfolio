@@ -1,5 +1,5 @@
 // import AUTH from "./auth";
-import Storage from "./storage";
+import Storage from "@/utilities/storage";
 
 const DEFAULT_HOST = process.env.NEXT_PUBLIC_API_HOST
 const REFRESH_TOKEN_PATH = '/api/v1/accounts/refresh-token/'

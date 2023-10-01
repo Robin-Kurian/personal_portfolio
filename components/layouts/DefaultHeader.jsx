@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import ContentWrapper from './ContentWrapper'
+import ContentWrapper from '@/components/layouts/ContentWrapper'
 
 const DefaultHeader = () => {
     return (

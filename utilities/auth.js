@@ -1,5 +1,5 @@
-import serverRequest from './serverRequest';
-import Storage from './storage';
+import serverRequest from '@/utilities/serverRequest';
+import Storage from '@/utilities/storage';
 
 const USER_PROFILE_URI = ''
 const SIGNIN_URI = ''

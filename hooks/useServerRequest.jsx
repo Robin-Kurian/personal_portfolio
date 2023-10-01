@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import serverRequest from '../utilities/serverRequest'
+import serverRequest from '@/utilities/serverRequest'
 
 const useServerRequest = (method, path, options, dependencies = []) => {
 

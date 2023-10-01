@@ -1,6 +1,6 @@
 import React from 'react'
-import DefaultFooter from './DefaultFooter'
-import DefaultHeader from './DefaultHeader'
+import DefaultFooter from '@/components/layouts/DefaultFooter'
+import DefaultHeader from '@/components/layouts/DefaultHeader'
 
 const DefaultLayout = ({ children, className }) => {
     return (
